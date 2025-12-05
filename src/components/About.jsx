@@ -5,7 +5,7 @@ const About = () => {
         <h2 className="text-4xl font-bold text-center text-blue-900 mb-12">About Me</h2>
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/3 mb-8 md:mb-0">
-            <img src="https://via.placeholder.com/400" alt="Boiz Wa Quba" className="rounded-full shadow-lg mx-auto" />
+            <img src="/Image1.jpg" alt="Boiz Wa Quba" className="rounded-full shadow-lg mx-auto w-80 h-80 object-cover" />
           </div>
           <div className="md:w-2/3 md:pl-12">
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
