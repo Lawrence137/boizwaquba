@@ -1,14 +1,26 @@
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
+import Manifesto from './components/Manifesto';
+import Gallery from './components/Gallery';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 import './App.css'
 
 function App() {
-
   return (
-    <>
-    <h1 className="text-3xl font-bold underline bg-red-500">
-      Hello, Boizwaquba!
-    </h1>
-    </>
-  )
+    <div className="bg-white">
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <Manifesto />
+        <Gallery />
+        <Contact />
+      </main>
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
