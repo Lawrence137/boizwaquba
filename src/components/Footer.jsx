@@ -8,6 +8,7 @@ const Footer = () => {
           <a href="#" className="hover:text-yellow-400 transition duration-300">Twitter</a>
           <a href="#" className="hover:text-yellow-400 transition duration-300">Instagram</a>
         </div>
+        <p>Developed by <a href="https://lawrencesportfolio.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-yellow-500 hover:underline">Lawrence Codes</a></p>
       </div>
     </footer>
   );
